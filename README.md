@@ -57,14 +57,14 @@ To run this locally with [QuantConnect Lean CLI](https://github.com/QuantConnect
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/pca-kalman-pairs-trading.git
-cd pca-kalman-pairs-trading
+git clone https://github.com/nilesh-mukherji/pair_trader.git
+cd pair_trader
 
 # Install Lean CLI if not already installed
 pip install lean
 
 # Run the backtest (you must have a QuantConnect account configured)
-lean backtest "PCADemo"
+lean backtest "KalmanTrader"
 ```
 
 Alternatively, run the code directly in QuantConnect's cloud environment by copying the contents of `PCADemo.py`.
